@@ -1,0 +1,13 @@
+{
+  "plan": {
+    "steps": [
+      {
+        "error_refinement": {
+            "description": "string",
+            "evidence": ["string"],
+            "resolutions": ["string"]
+        }
+      }
+    ]
+  }
+}

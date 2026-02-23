@@ -1,0 +1,9 @@
+{
+  "results": {
+    "analysis": {
+      "summary": "string",
+      "recommendations": ["string"],
+      "outputs": ["string"]
+    }
+  }
+}

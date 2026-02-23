@@ -1,0 +1,28 @@
+# --- Web / API ---
+flask>=3.0,<4.0
+
+# --- Agent framework ---
+langgraph>=0.2.0
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-anthropic>=0.2.0
+langchain-openai>=0.2.0
+
+# --- GCP services ---
+google-cloud-bigquery>=3.17.0
+google-cloud-storage>=2.14.0
+google-cloud-pubsub>=2.21.0
+google-api-core>=2.17.0
+
+# --- Data / parsing ---
+pandas>=2.1.0
+pyyaml>=6.0.1
+sqlparse>=0.5.0
+
+# --- Validation / schemas ---
+pydantic>=2.6.0
+
+# --- Env ---
+python-dotenv>=1.0.0
+
+json-repair>=0.30.0

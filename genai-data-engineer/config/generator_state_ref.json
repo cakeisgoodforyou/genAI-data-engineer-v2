@@ -1,0 +1,22 @@
+{
+  "plan": {
+    "steps": [
+      {
+        "call_function": "NONE | execute_query | get_dataset_schema | get_table_schema | read_file | write_file",
+        "call_function_args": {},
+        "expected_outputs": ["string"],
+        "code": {
+          "language": "sql | python | shell",
+          "content": "string",
+          "rationale": "string",
+          "confidence": 0.0,
+          "frozen": false
+        },
+        "completed": false,
+        "failed": false,
+        "error": null,
+        "frozen": false
+      }
+    ]
+  }
+}

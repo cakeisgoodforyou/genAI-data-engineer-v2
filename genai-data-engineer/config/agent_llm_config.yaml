@@ -1,0 +1,21 @@
+default:
+  project_id: "my-project-id"
+  location: "us-central1"
+  max_output_tokens: 20000
+  temperature: 0.2
+agents:
+  orchestrator:
+    model: "gpt-5-mini"
+    provider: "openai"
+  generator:
+    model: "gpt-5-mini"
+    provider: "openai"
+  executor:
+    model: "gpt-5-mini"
+    provider: "openai"
+  analyzer:
+    model: "gpt-5-mini"
+    provider: "openai"
+  error_refiner:
+    model: "gpt-5-mini"
+    provider: "openai"

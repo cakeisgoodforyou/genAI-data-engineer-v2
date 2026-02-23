@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "request_id": "string",
+    "created_at": "string",
+    "updated_at": "string",
+    "workflow_status": "RUNNING | WAITING_APPROVAL | COMPLETE | ERROR"
+  },
+
+  "request": {
+    "user_prompt": "string",
+    "context": {}
+  },
+
+  "plan": {
+    "goal": "string",
+    "agent_comments": "string",
+    "steps": [
+      {
+        "step_id": "string",
+        "step_type": "PLAN | GENERATE | ANALYZE | EXECUTE | REFINE | FEEDBACK | VALIDATE",
+        "description": "string",
+        "call_function": "NONE | execute_query | get_dataset_schema | get_table_schema | read_file | write_file",
+        "call_function_args": {},
+        "expected_outputs": ["string"],
+        "code": {
+          "language": "sql | python | shell",
+          "content": "string",
+          "rationale": "string",
+          "confidence": 0.0,
+          "frozen": false
+        },
+        "completed": false,
+        "failed": false,
+        "error": null,
+        "frozen": false
+      }
+    ]
+  },
+
+  "results": {
+    "analysis": {
+      "summary": "string",
+      "recommendations": ["string"],
+      "outputs": ["string"]
+    }
+  },
+  "approval": {
+    "status": "PENDING | APPROVED | REJECTED | REFINEMENT | ENDWORKFLOW",
+    "comment": "string"
+  }
+}

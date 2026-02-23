@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "request_id": "string",
+    "created_at": "string",
+    "updated_at": "string"
+  },
+  "request": {
+    "user_prompt": "string",
+    "context": {}
+  },
+  "plan": {
+    "goal": "string",
+    "agent_comments": "string",
+    "steps": [
+      {
+        "step_id": "string",
+        "step_type": "ANALYZE | EXECUTE | AWAIT_PROCEED",
+        "description": "string",
+        "expected_outputs": ["string"],
+        "completed": false,
+        "failed": false,
+        "error": null
+      }
+    ]
+  }
+}
