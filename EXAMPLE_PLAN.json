@@ -1,0 +1,30 @@
+{
+"plan": {
+"goal": "Add a copy of the order_items table to the thelook_ecommerce_local dataset and then add a view to summarise orders by user",
+"agent_comments": "",
+"steps": [
+{
+"step_id": "1",
+"step_type": "EXECUTE",
+"description": "Create a copy of the bigquery-public-data.thelook_ecommerce.order_items table in the agentic-metric-monitor project, add it to the existing thelook_ecommerce_local dataset.",
+"expected_outputs": [
+"dataset_creation_status"
+],
+"completed": false,
+"failed": false,
+"error": null
+},
+{
+"step_id": "2",
+"step_type": "EXECUTE",
+"description": "create a view in the agentic-metric-monitor project.thelook_ecommerce_local dataset that summarises orders by user.  draw on the users, orders and order_items tables",
+"expected_outputs": [
+"users_table_copy_status"
+],
+"completed": false,
+"failed": false,
+"error": null
+}
+]
+}
+}

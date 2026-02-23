@@ -1,0 +1,116 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+./venv
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+/src/agentic-python/scripts/.venv*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# AWS
+.aws-sam/
+
+# Output files
+outputs/
+EOF
+Output
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# AWS
+.aws-sam/
+
+# Output files
+outputs/
+
+# other doc folders
+X_SCRAP/
+X_old/
+src/lambda/**/dependencies/
+builds/
+documentation/
+scrap.txt
